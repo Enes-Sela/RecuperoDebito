@@ -72,5 +72,10 @@ namespace ProvaDebitoGITHUB
                 alunnitotali.Text = elencoAlunni.Count.ToString();
             }
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }
