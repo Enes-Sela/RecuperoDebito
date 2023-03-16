@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="NuovoAlunno" HorizontalAlignment="Left" Margin="43,24,0,0" VerticalAlignment="Top" Height="27" Width="98" Click="NuovoAlunno"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="43,72,0,0" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="nome" HorizontalAlignment="Left" Margin="43,103,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Cognome" HorizontalAlignment="Left" Margin="43,166,0,0" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="cognome" HorizontalAlignment="Left" Margin="43,197,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="170"/>
+        <Label Content="Età" HorizontalAlignment="Left" Margin="43,262,0,0" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="età" HorizontalAlignment="Left" Margin="43,293,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Città di residenza" HorizontalAlignment="Left" Margin="43,349,0,0" VerticalAlignment="Top" Width="170"/>
+        <TextBox x:Name="cittàResidenza" HorizontalAlignment="Left" Margin="43,380,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="170"/>
+        <Button Content="AggiuntaAlunno" HorizontalAlignment="Left" Margin="301,24,0,0" VerticalAlignment="Top" Height="27" Width="109" Click="AggiuntaAlunno"/>
+        <Button Content="RicercaAlunniEtà" HorizontalAlignment="Left" Margin="547,24,0,0" VerticalAlignment="Top" Height="27" Width="108" Click="Button_Click"/>
+        <Button Content="AlunniTotali" HorizontalAlignment="Left" Margin="547,97,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click_1"/>
+        <Label Content="Alunni totali" HorizontalAlignment="Left" Margin="547,148,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="alunnitotali" HorizontalAlignment="Left" Margin="547,179,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
